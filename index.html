@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histórias Infantis</title>
+    <style>
+        @font-face {
+            font-family: ' Helvetica', sans-serif;
+            src: url('URL_DA_FONTE_WALTOGRAPH'); 
+        }
+        @font-face {
+            font-family: 'Norican';
+            src: url('URL_DA_FONTE_NORICAN'); /* Substitua 'URL_DA_FONTE_NORICAN' pelo URL da fonte Norican */
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #00ffff; /* Ciano */
+            
+            background-size: cover;
+            color: #333333;
+        }
+        header {
+            background-color: #ffcccb; /* Rosa claro */
+            padding: 20px;
+            text-align: center;
+            font-family: 'Waltograph', sans-serif;
+        }
+        nav {
+            background-color: #fffacd; /* Amarelo claro */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            cursor: pointer;
+        }
+        section {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semitransparente */
+            border-radius: 10px;
+            margin: 20px;
+            display: none;
+        }
+        .intro {
+            background-color: #ebd8c1; /* Rose */
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            height: 100vh; /* Aumenta o tamanho da página */
+        }
+        .intro img {
+            width: 90%;
+            height: 90%;
+        }
+        .intro .text {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Norican', cursive;
+            font-size: 1.2em;
+            width: 80%;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .coloring-page {
+            background-color: rgb(224, 162, 120);
+            padding: 20px;
+            text-align: center;
+        }
+        .coloring-page img {
+            margin: 10px;
+            width: 200px;
+            height: auto;
+        }
+    </style>
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('section').forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <div class="intro">
+        <img src="https://i.pinimg.com/736x/51/7b/38/517b38fe540c658b8f3fd49abeaaaf3f.jpg" alt="Pergaminho">
+        <div class="text">
+            <p>Desde os primórdios histórias são escritas e contadas para a criação de mundos e fantasias que sejam totalmente diferentes da nossa realidade para alegrar e preencher corações com uma esperança de um mundo melhor, e eu acredito nesse mundo melhor e que ele começa em como educamos e ensinamos as crianças e isso começa em como podemos introduzir a leitura na educação de uma forma positiva e tranquila.</p>
+            <p>Aos pais, espero que cuidem e sempre protejam o mundo de vocês, ou seja, seus filhos e que ajudem eles a serem a verem que são o nosso futuro, nossos futuros Médicos, advogados, Engenheiros ou até Criadores de Histórias igual eu. Invistam no futuro deles...</p>
+            <p>Aos pequenos, cada um de vocês tem um infinito de possibilidades dentro de si, abraçem esse infinito e busquem o melhor futuro possível, vivam, desbravem aventuras, leiam, contem e criem histórias, mas sejam vocês mesmos e verão que vida incrível os aguarda.</p>
+        </div>
+    </div>
+    <header>
+        <h1> Só se pode chegar ao impossível se acreditar que é possível </h1>
+    </header>
+    <nav>
+        <a onclick="showSection('historias')">Histórias</a>
+        <a onclick="showSection('contos')">Contos</a>
+        <a onclick="showSection('desenhos')">Desenhos para Colorir</a>
+        <a onclick="showSection('atividades')">Atividades</a>
+    </nav>
+    <section id="historias">
+        <h2>Histórias</h2>
+        <p>Aqui você pode ler várias histórias infantis encantadoras.</p>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>A Princesa Clara e o Tesouro da Sabedoria</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f0f8ff; /* Azul claro */
+                    color: #333;
+                    padding: 20px;
+                }
+                header {
+                    background-color: #fadfde; /* Rosa claro */
+                    padding: 20px;
+                    text-align: center;
+                    font-size: 2em;
+                    font-weight: bold;
+                }
+                section {
+                    background-color: #fffacd; /* Amarelo claro */
+                    padding: 20px;
+                    border-radius: 10px;
+                    margin: 20px 0;
+                }
+                h2 {
+                    color: #ff6347; /* Tomate */
+                }
+            </style>
+        </head>
+        <body>
+            <header>
+                A princesa Clara e o Tesouro Perdido 
+            </header>
+
+                 <p>Era uma vez, em um reino distante, um majestoso castelo onde viviam o Rei Augusto, a Rainha Helena e sua filha, a Princesa Clara. Clara era uma jovem princesa conhecida por sua beleza e bondade, mas também por sua curiosidade e desejo de explorar o mundo além dos muros do castelo.</p>
+                  <p>Um dia, enquanto passeava pelos jardins do castelo, Clara encontrou um velho sábio que lhe contou sobre um tesouro escondido na Floresta Encantada. O tesouro, segundo o sábio, não era feito de ouro ou joias, mas de algo muito mais valioso: a sabedoria.</p> 
+                  <p>Determinada a encontrar o tesouro, Clara pediu permissão ao Rei Augusto para partir em uma jornada. O rei, preocupado com a segurança de sua filha, hesitou, mas a Rainha Helena, que acreditava na importância das lições de vida, convenceu o rei a permitir que Clara fosse acompanhada por um grupo de guardas reais.</p> 
+                  <p>Ao entrar na Floresta Encantada, Clara e seus guardas encontraram muitos desafios. Eles enfrentaram animais selvagens, atravessaram rios turbulentos e escalaram montanhas íngremes. Durante a jornada, Clara mostrou coragem, liderança e compaixão, ajudando seus guardas e aprendendo com cada obstáculo.</p> 
+                  <p>Finalmente, após muitos dias de viagem, Clara encontrou uma caverna escondida onde o tesouro estava guardado. Dentro da caverna, ela encontrou um antigo livro de sabedoria. Ao abrir o livro, Clara leu uma mensagem que mudou sua vida para sempre:</p> 
+                  <p>"A verdadeira riqueza não está em posses materiais, mas no conhecimento, na bondade e na sabedoria que compartilhamos com os outros."</p>
+                   <p>Com o coração cheio de gratidão, Clara retornou ao castelo com o livro de sabedoria. Ela compartilhou suas experiências e lições com o Rei Augusto, a Rainha Helena e todo o reino. A partir daquele dia, o reino prosperou não apenas em riquezas materiais, mas também em sabedoria e bondade.</p>
+                    <p>E assim, a Princesa Clara aprendeu que a verdadeira riqueza vem de dentro e que, ao compartilhar conhecimento e bondade, podemos criar um mundo melhor para todos.</p>
+                     <p>Fim.</p>
+                
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Aventura de Léo e o Robô Amigo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Azul claro */
+            color: #333;
+            padding: 20px;
+        }
+        header {
+            background-color: #fadddc; /* Rosa claro */
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        section {
+            background-color: #fffacd; /* Amarelo claro */
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        h2 {
+            color: #ff6347; /* Tomate */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        A Aventura de Léo e o Robô Amigo
+    </header>
+        <h2>Era uma vez...</h2>
+        <p>Em uma cidade moderna, um menino chamado Léo. Léo era um garoto curioso e cheio de energia, que adorava explorar e aprender coisas novas. Um dia, enquanto brincava no parque, ele encontrou um robô abandonado debaixo de uma árvore. O robô estava sujo e parecia estar quebrado, mas Léo viu algo especial nele.</p>
+        <p>Léo decidiu levar o robô para casa e, com a ajuda de seus pais, começou a consertá-lo. Eles passaram dias trabalhando juntos, limpando, ajustando e substituindo peças. Finalmente, o robô voltou à vida e se apresentou como Rob, o Robô Amigo.</p>
+        <p>Rob e Léo se tornaram grandes amigos. Eles brincavam juntos, faziam experimentos científicos e até ajudavam outras crianças da vizinhança com suas tarefas escolares. No entanto, nem tudo era fácil. Algumas crianças zombavam de Léo por ser amigo de um robô, dizendo que ele deveria brincar com crianças de verdade.</p>
+        <p>Léo ficou triste com as provocações, mas Rob o encorajou a não desistir. Ele lembrou Léo de todas as coisas incríveis que eles haviam feito juntos e de como haviam ajudado outras pessoas. Léo percebeu que a amizade verdadeira não se baseia na aparência ou na opinião dos outros, mas no apoio e na bondade que compartilhamos.</p>
+        <p>Um dia, um grande problema surgiu na cidade. Uma tempestade forte causou um apagão, e muitas pessoas ficaram presas em suas casas sem eletricidade. Léo e Rob decidiram ajudar. Com a ajuda do robô, Léo conseguiu consertar geradores e levar luz para as casas das pessoas. Eles trabalharam incansavelmente até que a cidade estivesse segura novamente.</p>
+        <p>As crianças que antes zombavam de Léo agora viam o quanto ele e Rob eram corajosos e generosos. Elas pediram desculpas e começaram a ver o robô como um amigo também. Léo aprendeu que, ao enfrentar desafios com coragem e bondade, podemos superar qualquer obstáculo e fazer a diferença na vida das pessoas.</p>
+        <p>E assim, Léo e Rob continuaram suas aventuras, sempre prontos para ajudar e mostrar que a verdadeira amizade e superação vêm de dentro.</p>
+        <p><strong>Fim.</strong></p>
+        <!DOCTYPE html>
+        <html lang="pt-BR">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>A Jornada de Sofia e a Árvore dos Frutos Dourados</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f0f8ff; /* Azul claro */
+                    color: #333;
+                    padding: 20px;
+                }
+                header {
+                    background-color: #fae7e7; /* Rosa claro */
+                    padding: 20px;
+                    text-align: center;
+                    font-size: 2em;
+                    font-weight: bold;
+                }
+                section {
+                    background-color: #fffacd; /* Amarelo claro */
+                    padding: 20px;
+                    border-radius: 10px;
+                    margin: 20px 0;
+                }
+                h2 {
+                    color: #ff6347; /* Tomate */
+                }
+            </style>
+        </head>
+        <body>
+            <header>
+                A Jornada de Sofia e a Árvore dos Frutos Dourados
+            </header>
+                <h2>Era uma vez...</h2>
+                <p>Em uma pequena vila, uma menina chamada Sofia. Sofia era uma garota alegre e curiosa, que adorava brincar ao ar livre e explorar a natureza. Um dia, enquanto caminhava pela floresta, ela encontrou uma árvore diferente de todas as outras. A árvore tinha folhas brilhantes e frutos dourados que pareciam muito especiais.</p>
+                <p>Sofia ficou encantada com a árvore e decidiu colher um dos frutos dourados. No entanto, quando tentou alcançá-lo, percebeu que o fruto estava muito alto. Ela tentou pular, mas não conseguiu. Tentou subir na árvore, mas os galhos eram escorregadios. Sofia ficou desanimada, mas não queria desistir.</p>
+                <p>Ela voltou para casa e contou a seus pais sobre a árvore especial. Seus pais a encorajaram a continuar tentando e a não desistir. No dia seguinte, Sofia voltou à árvore com uma escada, mas a escada era curta demais. Ela tentou usar um galho para derrubar o fruto, mas o galho quebrou. Sofia começou a se sentir frustrada, mas lembrou-se das palavras de seus pais e decidiu continuar tentando.</p>
+                <p>Nos dias seguintes, Sofia tentou várias maneiras de alcançar o fruto. Ela construiu uma escada mais alta, pediu ajuda a seus amigos e até tentou usar uma corda. Cada tentativa parecia falhar, mas Sofia não desistiu. Ela sabia que, com perseverança, conseguiria alcançar o fruto especial.</p>
+                <p>Finalmente, após muitos dias de esforço, Sofia teve uma ideia brilhante. Ela decidiu construir uma plataforma com a ajuda de seus amigos. Juntos, eles trabalharam duro e, com muita paciência e determinação, conseguiram construir a plataforma. Sofia subiu na plataforma e, finalmente, alcançou o fruto dourado.</p>
+                <p>Quando ela colheu o fruto, sentiu uma grande satisfação e alegria. Ela percebeu que a verdadeira recompensa não estava apenas no fruto, mas na jornada e nos esforços que fez para alcançá-lo. Sofia aprendeu uma lição valiosa sobre a importância da perseverança e voltou para a vila para compartilhar sua história com todos.</p>
+                <p>A partir daquele dia, sempre que alguém enfrentava um desafio, lembrava-se da história de Sofia e da árvore dos frutos dourados, e encontrava forças para continuar tentando.</p>
+                <p><strong>Fim.</strong></p>
+        </body>
+        </html>
+        
+</body>
+</html>
+        <!-- Era UMA vez -->
+    </section>
+    <section id="contos">
+        <h2>Contos</h2>
+        <p>Explore contos educativos para crianças de todas as idades.</p>
+        <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contos Infantis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Azul claro */
+            color: #333;
+            padding: 20px;
+        }
+        header {
+            background-color: #ffcccb; /* Rosa claro */
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        section {
+            background-color: #fffacd; /* Amarelo claro */
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        h2 {
+            color: #ff6347; /* Tomate */
+        }
+    </style>
+</head>
+<body>
+        <h2>O Cofrinho de Lucas (Educação Financeira)</h2>
+        <p>Era uma vez, um menino chamado Lucas que adorava comprar brinquedos. Um dia, sua mãe lhe deu um cofrinho e explicou a importância de economizar dinheiro. Lucas decidiu guardar suas moedas no cofrinho e, com o tempo, viu seu dinheiro crescer. Quando finalmente abriu o cofrinho, Lucas tinha economizado o suficiente para comprar um brinquedo especial. Ele aprendeu que, ao economizar, podia realizar seus sonhos e ainda ajudar sua família.</p>
+
+        <h2>A Amizade de Ana e Bia (Amizade)</h2>
+        <p>Ana e Bia eram melhores amigas que faziam tudo juntas. Um dia, durante uma brincadeira, elas tiveram uma discussão e pararam de se falar. Ambas ficaram tristes e perceberam que a amizade era mais importante do que qualquer desentendimento. Ana e Bia decidiram pedir desculpas uma à outra e voltaram a ser amigas. Elas aprenderam que a verdadeira amizade é baseada no respeito e na compreensão.</p>
+    
+        <h2>A Grande Aventura de Pedro (Aventura)</h2>
+        <p>Pedro era um menino aventureiro que adorava explorar a floresta perto de sua casa. Um dia, ele encontrou um mapa antigo que levava a um tesouro escondido. Com coragem e determinação, Pedro seguiu o mapa, enfrentando desafios e descobrindo lugares incríveis. No final da jornada, Pedro encontrou o tesouro: uma caixa cheia de livros de histórias. Ele aprendeu que a verdadeira aventura está no caminho e nas experiências vividas.</p>
+   
+        <h2>O Perdão de Júlia (Perdão)</h2>
+        <p>Júlia tinha um amigo chamado Marcos que, sem querer, quebrou seu brinquedo favorito. Júlia ficou muito chateada e não queria falar com Marcos. No entanto, ela percebeu que guardar rancor só a deixava mais triste. Júlia decidiu perdoar Marcos e eles voltaram a brincar juntos. Ela aprendeu que o perdão é um ato de amor que traz paz e felicidade.</p>
+    </section>
+</body>
+</html>
+
+    </section>
+    <section id="desenhos">
+        <h2>Desenhos para Colorir</h2>
+        <p>Baixe e imprima desenhos para colorir e se divertir.</p>
+        <div class="coloring-page">
+            <!-- Espaços para 20 desenhos -->
+            <img src="https://tse3.mm.bing.net/th?id=OIG1.h1M3GWGjF8Z6GKiwPaHc&pid=ImgGn" alt="Desenho 1">
+            <img src="https://tse4.mm.bing.net/th?id=OIG3.La9XfBaNQUZQFHQoXC7c&pid=ImgGn" alt="Desenho 2">
+            <img src="https://tse2.mm.bing.net/th?id=OIG1.9k.3llW.NXn8xRzUF0k_&pid=ImgGn" alt="Desenho 3">
+            <img src="https://tse1.mm.bing.net/th?id=OIG2.f0p9W.LZqzY_zN2Gb_uQ&pid=ImgGn" alt="Desenho 4">
+            <img src="https://tse2.mm.bing.net/th?id=OIG3.vn0MFb55oN5tWlAA5vqY&pid=ImgGn" alt="Desenho 5">
+            <img src="https://tse1.mm.bing.net/th?id=OIG2.OD3LwbC4rraw2t6z0GIe&pid=ImgGn" alt="Desenho 6">
+            <img src="https://tse2.mm.bing.net/th?id=OIG2.WHjOq1tPV5VA8ecgsobs&pid=ImgGn" alt="Desenho 7">
+            <img src="https://tse4.mm.bing.net/th?id=OIG2.Fm5JBH.3O1EdQ2JBDcoA&pid=ImgGn" alt="Desenho 8">
+            <img src="https://tse1.mm.bing.net/th?id=OIG2.g35OYFoQvP4dK5vjCC.x&pid=ImgGn" alt="Desenho 9">
+            <img src="https://tse1.mm.bing.net/th?id=OIG1.JvLesBuzfSacQe5xfQD8&pid=ImgGn" alt="Desenho 10">
+            <img src="https://tse1.mm.bing.net/th?id=OIG2.jm3VF.FJTLMrCF58AZYz&pid=ImgGn" alt="Desenho 11">
+            <img src="https://tse3.mm.bing.net/th?id=OIG4.inIJlOc..WFtgQWlGNhP&pid=ImgGn" alt="Desenho 12">
+            <img src="https://tse2.mm.bing.net/th?id=OIG3.7s78JVAKkLc_a5I2Wk4R&pid=ImgGn" alt="Desenho 13">
+            <img src="https://tse1.mm.bing.net/th?id=OIG1.aT8fFWL8.MQE3U7rWybx&pid=ImgGn" alt="Desenho 14">
+            <img src="https://tse3.mm.bing.net/th?id=OIG2.KvgN_JK9Yo_nB3jA8D_4&pid=ImgGn" alt="Desenho 15">
+           
+        </div>
+    </section>
+    <section id="atividades">
+        <h2>Atividades</h2>
+        <p>Baixe e imprima atividades infantis para se divertir.</p>
+        <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades Educativas para Crianças</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #000000;
+        }
+        h2 {
+            color: #000000;
+        }
+        .activity {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Atividades Educativas para Crianças</h1>
+
+    <div class="activity">
+        <h2>1. Caça-Palavras de Animais</h2>
+        <p>Crie um caça-palavras com nomes de diferentes animais. As crianças podem procurar e circular os nomes dos animais na grade de letras. Isso ajuda a melhorar o vocabulário e a concentração.</p>
+        <img src="https://i.pinimg.com/736x/36/d5/4f/36d54fd7ea9aac6c4da27bcd68534b6c.jpg
+        ">
+    </div>
+
+    <div class="activity">
+        <h2>2. Labirinto</h2>
+        <p>Isso ajuda a desenvolver habilidades de resolução de problemas e pensamento crítico.</p>
+        <img src="https://i.pinimg.com/736x/fb/93/9f/fb939fa87a19535c6140487d118293b4.jpg">
+    </div>
+
+    <div class="activity">
+        <h2>3. Conecte os Pontos</h2>
+        <p> As crianças devem conectar os pontos na ordem correta para revelar a imagem. Isso ajuda a melhorar a coordenação motora e o reconhecimento de números.</p>
+        <img src="https://i.pinimg.com/736x/5d/1a/70/5d1a700ed34e8cbd1b064446373b3de7.jpg">
+    </div>
+
+</body>
+</html>
+
